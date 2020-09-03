@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::get('/repositories', 'RepositoryController@index');
+
+Route::post('/repositories', 'RepositoryController@store');
+
+Route::delete('/repositories/{id}', 'RepositoryController@destroy');
