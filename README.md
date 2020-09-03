@@ -2,7 +2,9 @@
    Laravel + Vue
 </h1>
 
-![ezgif-6-f68087082cce](https://user-images.githubusercontent.com/51488383/92136166-b21aac00-edd9-11ea-81fe-a7ec4c902cf8.gif)
+<p align="center">
+  <img width="800" height="437" src="https://user-images.githubusercontent.com/51488383/92136166-b21aac00-edd9-11ea-81fe-a7ec4c902cf8.gif">
+</p>
 
 ## :space_invader: Tecnologias
 
