@@ -18,8 +18,12 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('/repositories', 'RepositoryController@index');
+Route::get('/repositories', 'RepositoryController@index')->middleware('counter');
 
 Route::post('/repositories', 'RepositoryController@store');
 
 Route::delete('/repositories/{id}', 'RepositoryController@destroy');
+
+Route::get('/traffic', 'TrafficController@index');
+
+Route::get('/traffic/{id}', 'TrafficController@show');
