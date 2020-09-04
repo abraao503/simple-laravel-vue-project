@@ -32,6 +32,12 @@ class TrafficController extends Controller
   {
     try {
       $visitor = $this->objTraffic->find($id);
+      if($visitor){
+        return response($visitor, 200);
+      } else {
+        $reponse['error'] = 'visitor not found';
+        return response($reponse, 404);
+      }
       return response($visitor, 200);
     } catch(\Throwable $e) {
       return response([], 500);
