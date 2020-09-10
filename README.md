@@ -12,7 +12,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Laravel](https://laravel.com/)
 - [Vue.js](https://vuejs.org/)
-- [PostgresSQL](https://www.postgresql.org/)
+- [PostgreSQL](https://www.postgresql.org/)
 
 ## :computer: Sobre o projeto
 
